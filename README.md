@@ -1,15 +1,6 @@
-# Term2cosde
-UART Communication
-//**************************************************************************************************
-// Name: Jeshwanth Dharna
-// Date: 11/14/2022
-// Course: ELEC3371-001
-//DESCRIPTION : This program communicates with the USART terminal using a baud rate of 56,000 when the
-//when then user interacts with the joystick then MCU will send ASCII characters as UP,DOWN,LEFT,RIGHT
-//and CLICK upon pressing on which direction the user pressed and when the user writes UP from the terminal
-//of the MCU then recives in terminal as UP Pressed and when sends again it recives as UP Released.
-//It works all the directions including click. And program also counts no. of times button pressed.
-//**************************************************************************************************
+/*
+DESCRIPTION : This program communicates with the USART terminal using a baud rate of 56,000 when thewhen then user interacts with the joystick then MCU will send ASCII characters as UP,DOWN,LEFT,RIGHT and CLICK upon pressing on which direction the user pressed and when the user writes UP from the terminal of the MCU then recives in terminal as UP Pressed and when sends again it recives as UP Released.It works all the directions including click. And program also counts no. of times button pressed.
+*/
 //VARIABLE DECLARATIONS
 void initialize_USART1();        // Sub function which initializes the registers to enable USART1
 void joystick_configuration();  // Sub function which initializes the joystick
